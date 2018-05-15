@@ -4,10 +4,11 @@
   box-sizing: border-box;
   /* font-family: '游ゴシック', 'Hiragino Kaku Gothic ProN', 'メイリオ', meiryo, 'Helvetica Neue', sans-serif; */
 }
-.header {
+.header,
+.footer {
   margin: 0 auto;
   width: 80%;
-  background-color: #424140;
+  background-color: #1b2235;
 }
 .header-logo {
   margin: 0 auto;
@@ -20,8 +21,25 @@
   font-family: "Snell Roundhand"; font-weight: 900;;
 }
 .main {
+  margin: 10px auto;
+  width: 80%;
+  height: 600px;
+  background-color: #1b2235;
+}
+
+.sub {
   margin: 0 auto;
   width: 80%;
-  height: 650px;
-  /* background-color: #1b2235; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub > * {
+  width: 30%;
+  text-align: center;
+  background-color: rgb(167, 50, 0)
+}
+
+.footer {
+  margin-top: 20px;
 }
