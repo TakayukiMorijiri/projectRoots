@@ -4,6 +4,9 @@
   box-sizing: border-box;
   /* font-family: '游ゴシック', 'Hiragino Kaku Gothic ProN', 'メイリオ', meiryo, 'Helvetica Neue', sans-serif; */
 }
+h2 {
+  color: #c3c3c3;
+}
 .header,
 .footer {
   margin: 0 auto;
