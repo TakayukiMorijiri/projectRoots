@@ -2,9 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: '游ゴシック', 'Hiragino Kaku Gothic ProN', 'メイリオ', meiryo, 'Helvetica Neue', sans-serif; */
 }
-
-.main {
+.header {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #424140;
+}
+.header-logo {
   margin: 0 auto;
   width: 50%;
+  font-size: 50px;
+  text-align: center;
+  color: #c14d00;
+}
+.header-logo h1 {
+  font-family: "Snell Roundhand"; font-weight: 900;;
+}
+.main {
+  margin: 0 auto;
+  width: 80%;
+  height: 650px;
+  /* background-color: #1b2235; */
 }
