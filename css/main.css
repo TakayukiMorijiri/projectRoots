@@ -11,7 +11,8 @@ h2 {
 .footer {
   margin: 0 auto;
   width: 80%;
-  background-color: #1b2235;
+  background-color: #17264f;
+  opacity: 0.96;
 }
 .header-logo {
   margin: 0 auto;
@@ -21,13 +22,21 @@ h2 {
   color: #c14d00;
 }
 .header-logo h1 {
-  font-family: "Snell Roundhand"; font-weight: 900;;
+  font-family: "Snell Roundhand";
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-shadow: 2px 3px 7px #040753,
+  3px 4px 6px #040753,
+  4px 5px 5px #040753,
+  5px 6px 6px #040753,
+  6px 7px 7px #020546;
 }
 .main {
   margin: 10px auto;
   width: 80%;
   height: 600px;
-  background-color: #1b2235;
+  background-color: #17264f;
+  opacity: 0.96;
 }
 
 .sub {
