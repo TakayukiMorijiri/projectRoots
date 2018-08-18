@@ -48,6 +48,8 @@ h2 {
 
 .sub > * {
   width: 30%;
+  height: 200px;
+  margin-bottom: 5%;
   text-align: center;
   background-color: rgb(167, 50, 0)
 }
